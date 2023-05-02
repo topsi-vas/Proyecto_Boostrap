@@ -1,0 +1,33 @@
+.seccion-principal {
+    text-align: justify;
+}
+.footer-general{
+    background-image: url('../img/stage.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:66vh ;
+}
+.footer-general a{
+    text-decoration: none;
+    color: rgb(142, 134, 134);
+    border: solid 1px rgb(142, 134, 134);
+    padding: 6px;
+    border-radius: 5px;
+
+}
+.footer-general a:hover{
+    color: white;
+}
+.parrafo{
+    background-color: black;
+    opacity: 0.7;
+}
+.parrafo2{
+    font-size: 0.8rem;
+}
+@media (min-width: 992px){
+    .parrafo{
+        margin-top: 4rem !important;
+    }
+}
